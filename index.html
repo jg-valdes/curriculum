@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Resume CV - Juan Gabriel</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class=" l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Juan Gabriel</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home nav__icon'></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>Profile
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i>Education
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i>Experience
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class='bx bx-award nav__icon'></i>Certificates
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/perfil.jpg" alt="" class="home__img">
+
+                            <h1 class="home__title">Vald&eacute;s <b>JUAN GABRIEL</b></h1>
+
+                            <h3 class="home__profession">Full-Stack Developer</h3>
+                            <!--<span id="resume-button" class="generate-pdf">Download</span>-->
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon'></i> Calle Primera #8 e/ B y Prolg. Raul Lara, Reparto Parqueo. Camajuan&iacute;. Villa Clara. Cuba
+                            </span>
+
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon'></i> jgvaldes1992@gmail.com
+                            </span>
+
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon'></i> (+53) 54859394
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <!-- Theme change button -->
+                    <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+
+                </section>
+                
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+
+                    <p class="profile__description">
+                        Computer Science Engineer & <b>Full Stack Developer</b>. 
+                        I have several years of experience in the field of work and 
+                        I like to continue improving my development skills.
+                    </p>
+                </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">COMPUTER SCIECE ENGINEER</h3>
+                                <span class="education__studies">Universidad de las Ciencias Inform&aacute;ticas. La Habana - Cuba</span>
+                                <span class="education__year">2011 - 2016</span>
+                                <ul class="education__list">
+                                    <li class="education__description">
+                                        <span class="education__circle"></span>
+                                        <div>Middle Technician in Computer Science. 
+                                            Polytechnic Institute of Informatics L&aacute;zaro C&aacute;rdenas del R&iacute;o, Santa Clara, Villa Clara, Cuba.
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section hide" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__content bd-grid">
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Yii2
+                            <span class="skills__time">(6+ years)</span>
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Django
+                            <span class="skills__time">(5+ years)</span>
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> RestFramework
+                            <span class="skills__time">(5+ years)</span>
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> API Rest
+                            <span class="skills__time">(5+ years)</span>
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> PostgreSQL
+                            <span class="skills__time">(7+ years)</span>
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> MySQL
+                            <span class="skills__time">(7+ years)</span>
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Git
+                            <span class="skills__time">(5 years)</span>
+                        </div>                        
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Scrum
+                            <span class="skills__time">(3 years)</span>
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Docker
+                            <span class="skills__time">(2 years)</span>
+                        </div>
+                        <div class="skills__name">
+                            <span class="skills__circle"></span> Angular
+                            <span class="skills__time">(2 years)</span>
+                        </div>
+                        <div class="skills__name showmore hide">
+                            <span class="skills__circle"></span> PHP 5-7
+                            <span class="skills__time">(6+ years)</span>
+                        </div>
+                        <div class="skills__name showmore hide">
+                            <span class="skills__circle"></span> Python3
+                            <span class="skills__time">(5+ years)</span>
+                        </div>
+                        <div class="skills__name showmore hide">
+                            <span class="skills__circle"></span> Bootstrap
+                            <span class="skills__time">(3+ years)</span>
+                        </div>
+                        <div class="skills__name showmore hide">
+                            <span class="skills__circle"></span> jQuery
+                            <span class="skills__time">(5+ years)</span>
+                        </div>
+                        
+                    </div>
+                    <a href="#" class="skills-button" id="skills-button">See More</a>
+                </section>
+
+            </div>
+
+            <div class="resume__right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience__container bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Full-Stack Developer</h3>
+                                <span class="experience__company">From 2021 | WHATISHOT (<a target="_blank" href="https://wih.app">https://wih.app</a>)</span>
+                                <ul class="experience__list">
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Online store type website for product sales. Allow to manage departments, categories, register affiliates and use drivers to complete delivery orders.
+                                        </div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Signal webhook handling for receive email from SendGrid and process orders request.
+                                        </div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Setting and generation of Meta SEO techniques for static pages, products and categories.
+                                        </div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Development of precise functions to handling register as company client, user contact handling, generation of custom notifications for required events, among other particular functions through various modules.
+                                        </div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Development of a search module for save asynchronously user searches over configured Filter Forms, allowing to collect data for future analyze and processing. Django-RQ were used to this operations.
+                                        </div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Fully remote work, completing assigned tasks on time requirements and working under pressure.
+                                        </div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Daily work progress reports following the workflow set by the team using Git/Gitea as version control, Jira to guide SCRUM process and Slack for daily meetings.
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="experience__technologies">
+                                    <span>Technologies used</span>
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Django 2.2</li>
+                                        <li class="experience__technologies-item">Python3</li>
+                                        <li class="experience__technologies-item">RestFramework</li>
+                                        <li class="experience__technologies-item">Django RQ</li>
+                                        <li class="experience__technologies-item">API Rest</li>
+                                        <li class="experience__technologies-item">PostgreSQL + postgis</li>
+                                        <li class="experience__technologies-item">Git</li>
+                                        <li class="experience__technologies-item">Metronic</li>
+                                        <li class="experience__technologies-item">JavaScript</li>
+                                        <li class="experience__technologies-item">jQuery</li>                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Backend Developer</h3>
+                                <span class="experience__company">From 2021 | PlusHolidays (<a target="_blank" href="https://plusholidays.com">https://plusholidays.com</a>)</span>
+                                <ul class="experience__list">
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            API Rest Developer for PlusHolidays site, aiming to reservation of villages and other properties managed by PlusHolidays company in Spain.
+                                        </div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Setting and handling custom notifications over required events allowing websocket signals for real time display.
+                                        </div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Development of Accommodations, Notifications, Settings and other modules with total CRUD management using API Rest services. Includes the public services for display, filter and calculate rules for custom search of accommodations and locations using complex filters.
+                                        </div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Scheduled tasks were created to handle asynchronous events, send notifications and news by email to clients using Celery.
+                                        </div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Fully remote work, completing assigned tasks on time requirements and working under pressure.
+                                        </div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Daily work progress reports following the workflow set by the team using Git/GitLab as version control, Trello to guide SCRUM process and Slack for daily meetings.
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="experience__technologies">
+                                    <span>Technologies used</span>
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Django 3</li>
+                                        <li class="experience__technologies-item">Python3</li>
+                                        <li class="experience__technologies-item">RestFramework</li>
+                                        <li class="experience__technologies-item">API Rest</li>
+                                        <li class="experience__technologies-item">PostgreSQL + postgis</li>
+                                        <li class="experience__technologies-item">GitHub</li>
+                                        <li class="experience__technologies-item">Celery</li>                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Backend Developer</h3>
+                                <span class="experience__company">From 2020 to 2021 | Merk&aacute;rea (<a target="_blank" href="https://merkarea.com">https://merkarea.com</a>)</span>
+                                <ul class="experience__list">
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Management system for register Markets and Commerces allowing custom handling of business for its owners and employees. Allow to track commerce orders and post products using custom settings for handling B2B and B2C business models.
+                                        </div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Development of varios modules for admin Commerces, Users, Employees and notifications, using push with Firebase and emails with SendinBlue services.
+                                        </div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Schedule tasks for handling asynchronous events, email and notify users using Celery.
+                                        </div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Fully remote work, completing assigned tasks on time requirements and working under pressure.
+                                        </div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Daily work progress reports following the workflow set by the team using Git/GitLab as version control, Trello to guide SCRUM process and Slack for daily meetings.
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="experience__technologies">
+                                    <span>Technologies used</span>
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Django 3</li>
+                                        <li class="experience__technologies-item">Python3</li>
+                                        <li class="experience__technologies-item">RestFramework</li>
+                                        <li class="experience__technologies-item">API Rest</li>
+                                        <li class="experience__technologies-item">PostgreSQL</li>
+                                        <li class="experience__technologies-item">Git</li>
+                                        <li class="experience__technologies-item">Celery</li>                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">DevOps and Full-Stack Developer</h3>
+                                <span class="experience__company">From 2020 to 2021 | CocoLeads + CRM CoReakt (<a target="_blank" href="http://api.v2.coco-leads.com">http://api.v2.coco-leads.com</a>)</span>
+                                <ul class="experience__list">
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            DevOps settings and deploys with cPanel services handling Yii2 Systems and Django RestFramework complementary applications.
+                                        </div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Development of CocoLeads System that manage Leads allowing process then from LandingPages sales. It manage operators and integrate CoReakt CRMs for Spain, Colombia and Ecuador branch offices. Allow the management and customization for Affiliates integration.
+                                        </div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Development of CRM CoReakt management system for receive and process leades from CocoLeads requests. Allo to manage and customize workflows involving leads modifications. Control and save operator statistics and alow to them make VoIP calls using Zadarma services.
+                                        </div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Development of Django RestFramework API systems for authorize operators to VoIP calls from custom desktop app connected to CRM. Also, it has been developed some django apps for receive workflow notifications and push escential data to Telegram bots.
+                                        </div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Fully remote work, completing assigned tasks on time. Weekly job progress reports following the workflow established by the team using Git/GitHub version control and Trello for guide SCRUM process.
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="experience__technologies">
+                                    <span>Technologies used</span>
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Yii2</li>
+                                        <li class="experience__technologies-item">PHP 7</li>
+                                        <li class="experience__technologies-item">Django 3</li>
+                                        <li class="experience__technologies-item">Python3</li>
+                                        <li class="experience__technologies-item">RestFramework</li>
+                                        <li class="experience__technologies-item">API Rest</li>
+                                        <li class="experience__technologies-item">MySQL + MariaDB</li>
+                                        <li class="experience__technologies-item">SQLite</li>
+                                        <li class="experience__technologies-item">Git</li>
+                                        <li class="experience__technologies-item">Bootstrap</li>
+                                        <li class="experience__technologies-item">JavaScript</li>
+                                        <li class="experience__technologies-item">jQuery</li>                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Full-Stack Developer</h3>
+                                <span class="experience__company">From 2018 to 2019 | Cuban Videogames Portal (<a target="_blank" href="https://cosmox.uci.cu">https://cosmox.uci.cu</a>)</span>
+                                <ul class="experience__list">
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Web site for manage Categories, News, Videogames with ranking support and resources management. Includes an internal Coin called BitGames for use internally on videogames to start matches or buy weapons.
+                                        </div>
+                                    </li>
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            The necessary endpoints were created to be consumed by third parties and custom platform videogames, allowing Ranking posting and consulting, BitGames transactions, news consulting, among other functionalities.
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="experience__description">
+                                        <span class="experience__circle"></span>
+                                        <div>
+                                            Fully presential work, completing assigned tasks on time. Weekly job progress reports following the workflow established by the team using Git/GitLab version control and Gespro for guide the AUP UCI methodology.
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="experience__technologies">
+                                    <span>Technologies used</span>
+                                    <ul class="experience__technologies-list">
+                                        <li class="experience__technologies-item">Yii2</li>
+                                        <li class="experience__technologies-item">PHP 5</li>
+                                        <li class="experience__technologies-item">API Rest</li>
+                                        <li class="experience__technologies-item">MySQL + MariaDB</li>
+                                        <li class="experience__technologies-item">Git</li>
+                                        <li class="experience__technologies-item">Boostrap</li>
+                                        <li class="experience__technologies-item">jQuery</li>                                   
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        
+
+                    </div>
+                </section>
+
+                <!--========== CERTIFICATES ==========-->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Certificates</h2>
+
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate__content bd-grid">
+                            <h3 class="certificate__title">An Introduction to Academic Writing in English</h3>
+                            <span class="certificate__company">Jul 2021 | Universidad de las Ciencias Inform&aacute;ticas</span>
+                            <p class="certificate__description">
+                                Provide knowledge and skills required to improve English writing.</p>
+                        </div>
+
+                        <div class="certificate__content bd-grid">
+                            <h3 class="certificate__title">Scrum Fundamentals Certified</h3>
+                            <span class="certificate__company">Jul 2021 | SCRUMstudy</span>
+                            <p class="certificate__description">
+                                Provide knowledge and skills to apply and follow best practices on SCRUM framework.
+                            </p>
+                        </div>
+
+                        <div class="certificate__content bd-grid">
+                            <h3 class="certificate__title">Scrum Foundation Professional Certificate (SFPC)</h3>
+                            <span class="certificate__company">Jun 2020 | CertiProf</span>
+                            <p class="certificate__description">
+                                Provide knowledge and skills to apply and follow best practices on SCRUM framework.
+                            </p>
+                        </div>
+
+                        <div class="certificate__content bd-grid">
+                            <h3 class="certificate__title">PostgreSQL Database Technologies Diploma</h3>
+                            <span class="certificate__company">Oct 2017 | Universidad de las Ciencias Inform&aacute;ticas</span>
+                            <p class="certificate__description">
+                                Provide knowledge and skills required to admin and optimize PostgreSQL databases, souch as create triggers and procedures.</p>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section">
+                    <h3 class="section-title">Languages</h3>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Spanish
+                            </li>
+
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> English
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--========== INTERESTS ==========-->
+                <section class="interests section">
+                    <h2 class="section-title">Interests</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class="bx bx-headphone interests__icon"></i>
+                            <span class="interests__name">Music</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="bx bx-run interests__icon"></i>
+                            <span class="interests__name">Workout</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class="bx bx-coffee interests__icon"></i>
+                            <span class="interests__name">Cofee</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class="bx bxs-plane-alt interests__icon"></i>
+                            <span class="interests__name">Travel</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrollttop__icon'></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
