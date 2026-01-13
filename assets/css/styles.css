@@ -196,6 +196,10 @@ body.scale-cv {
   column-gap: 2.5rem;
 }
 
+.scale-cv .display-only-print {
+  display: block !important;
+}
+
 body {
   margin: 0 0 var(--header-height) 0;
   padding: 0;
