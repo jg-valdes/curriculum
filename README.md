@@ -1,3 +1,5 @@
 # curriculum
 
-Personal curriculum. Computer Science Engineer &amp; Full Stack Developer. I have several years of experience in the field of work and I like to continue improving my development skills. Visit on [https://jg-valdes.github.io/curriculum/](https://jg-valdes.github.io/curriculum/)
+Senior Backend Engineer with 8+ years building scalable REST APIs and distributed systems across ad-tech, HR-tech, and e-commerce. Deep expertise in Python/Django; growing proficiency in Java/SpringBoot. Proven record leading features in high-growth, fully remote SaaS products.
+
+Single-page CV — visit [https://jg-valdes.github.io/curriculum/](https://jg-valdes.github.io/curriculum/)

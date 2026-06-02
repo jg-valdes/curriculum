@@ -5,3 +5,6 @@
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+
+# Compiled PDF at root (output goes to assets/resources/)
+cv.pdf
