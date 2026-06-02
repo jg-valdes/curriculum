@@ -52,6 +52,7 @@ html {
 body.dark-theme {
   --title-color: #f2f2f2;
   --text-color: #bfbfbf;
+  --text-color-light: #a0a0a0;
   --text-link: #5f88f2;
   --container-color: #212121;
   --container-color-alt: #181616;
@@ -99,6 +100,13 @@ body.scale-cv {
 
 .generate-pdf:hover {
   color: var(--title-color);
+}
+
+.download-pdf-latex {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 0.4rem;
 }
 
 /*========== Classes modified to reduce size and print on A4 sheet ==========*/
