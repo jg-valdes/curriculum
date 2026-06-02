@@ -1,0 +1,145 @@
+\documentclass[10pt, letterpaper]{article}
+
+% ---------- Packages ----------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=0.5in, top=0.35in, bottom=0.35in]{geometry}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{microtype}
+
+% ---------- Layout ----------
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[L]{\small Last updated: \today}
+\fancyfoot[C]{\small Juan Gabriel Vald\'{e}s D\'{i}az}
+\fancyfoot[R]{\small Page 1 / 1}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% ---------- Section style ----------
+\titleformat{\section}{\normalsize\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{5pt}{2pt}
+
+% ---------- List style ----------
+\setlist[itemize]{
+    noitemsep,
+    topsep=1pt,
+    parsep=0pt,
+    partopsep=0pt,
+    leftmargin=1.5em,
+    label=\textbullet
+}
+
+% ---------- Helpers ----------
+\newcommand{\jobtitle}[4]{%
+    \textbf{#1} \hfill \textit{#2}\\[-1pt]%
+    \textit{#3} \hfill #4%
+}
+\newcommand{\jobstack}[1]{\vspace{0pt}\textit{\small Stack: #1}}
+\newcommand{\entrysep}{\vspace{4pt}}
+
+% ============================================================
+\begin{document}
+% ============================================================
+
+% ---------- Header ----------
+\begin{center}
+    {\Huge\bfseries Juan Gabriel Vald\'{e}s D\'{i}az}\\[3pt]
+    Montevideo, Uruguay\\[2pt]
+    \href{https://linkedin.com/in/jg-valdes}{LinkedIn}
+    \textbar\
+    \href{https://github.com/jg-valdes}{GitHub}
+    \textbar\
+    jgvaldes1992@gmail.com
+    \textbar\
+    (+598) 96303830
+\end{center}
+
+\vspace{1pt}
+
+% ---------- About Me ----------
+\section{About Me}
+
+Senior Backend Engineer with 9+ years building scalable REST APIs and distributed systems across
+ad-tech, HR-tech, and e-commerce. Deep expertise in Python/Django; growing proficiency in
+Java/SpringBoot. Proven record leading features in high-growth, fully remote SaaS products.
+
+% ---------- Experience ----------
+\section{Experience}
+
+\jobtitle{Senior Backend Engineer}{Uruguay (Remote)}{SunnyData AI}{Aug 2025 -- Present}
+\begin{itemize}
+    \item Develop FastAPI and SpringBoot services for Kroger's 8451 Ad Platform, enabling campaign
+          and ads management across all Kroger retail sites.
+    \item Configured Azure secrets, GitHub Actions, and Terraform pipelines for CI/CD; authored
+          Postman contract tests to enforce API contracts across services.
+\end{itemize}
+\jobstack{Python 3.8+, FastAPI, Java, SpringBoot, Kubernetes, Azure, Redis, MongoDB}
+
+\entrysep
+
+\jobtitle{Senior Software Engineer}{Uruguay (Remote)}{UKG -- Employee Voice}{Jan 2023 -- Jul 2025}
+\begin{itemize}
+    \item Led REST API development for UKG Pro's Employee Voice survey tool, building automation
+          rules for survey triggering, participant generation, and multi-channel invite delivery.
+    \item Re-architected Celery Beat pipelines for survey tracking and aggregation, improving
+          processing throughput.
+    \item Designed a Java 21 + SpringBoot service layer to migrate the legacy Employee Voice
+          platform to a centralized, standards-compliant data service.
+\end{itemize}
+\jobstack{Python 3.8+, Java, SpringBoot, AngularJS, Redis, MySQL, MongoDB, Celery, Kubernetes, GCS}
+
+\entrysep
+
+\jobtitle{Backend Developer}{Cuba (Remote) $\to$ Spain}{Smart and Fun -- PlusHolidays}{Nov 2019 -- Sep 2022}
+\begin{itemize}
+    \item Built REST API services for a Spanish holiday reservation platform, delivering full-CRUD
+          modules for Accommodations, Notifications, and Settings.
+    \item Integrated Inter Home Group and Avantio VRMS for real-time booking and accommodation
+          synchronization; implemented Celery tasks and WebSocket notifications for async events.
+\end{itemize}
+\jobstack{Django 3, DRF, Python3, PostgreSQL+PostGIS, Redis, Celery}
+
+\entrysep
+
+\jobtitle{Full-Stack Developer}{Cuba (Remote) $\to$ USA}{Locomotion Technologies -- WHATISHOT}{Jan 2017 -- Aug 2022}
+\begin{itemize}
+    \item Built an async search module via Django-RQ capturing user behavior data across filter
+          forms, and integrated Google Merchant Center to generate Google Shopping product feeds.
+    \item Implemented SendGrid webhook handlers, Meta SEO for product pages, and wrote unit tests
+          covering models, forms, serializers, views, and utilities.
+\end{itemize}
+\jobstack{Django 2.2, DRF, Python3, Docker, AWS S3, PostgreSQL+PostGIS, Redis, JavaScript, jQuery}
+
+% ---------- Skills ----------
+\section{Skills}
+
+\begin{itemize}
+    \item \textbf{Languages \& Frameworks:} Python3, Django, DRF, FastAPI, Java, SpringBoot, Celery, JavaScript, jQuery
+    \item \textbf{Databases:} PostgreSQL, MySQL, MongoDB, Redis
+    \item \textbf{Infrastructure:} Docker, Kubernetes, Azure, GCS, AWS S3
+    \item \textbf{Methods:} REST API Design, Scrum, Git
+\end{itemize}
+
+% ---------- Education ----------
+\section{Education}
+
+\jobtitle{Universidad de las Ciencias Inform\'{a}ticas}{La Habana, Cuba}{Computer Science Engineer}{2011 -- 2016}
+
+% ---------- Certifications ----------
+\section{Certifications}
+
+\begin{itemize}
+    \item \textbf{PCAP\texttrademark{} -- Certified Associate Python Programmer} \hfill Mar 2024\\
+          \textit{OpenEDG / Python Institute}
+    \item \textbf{Scrum Fundamentals Certified} \hfill Jul 2021\\
+          \textit{SCRUMstudy}
+\end{itemize}
+
+\end{document}
